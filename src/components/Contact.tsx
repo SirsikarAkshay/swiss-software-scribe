@@ -17,20 +17,20 @@ const Contact = () => {
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Mail className="mr-3 text-primary" size={20} />
-                    <a href="mailto:contact@akshaysirsikar.com" className="text-gray-700 hover:text-primary">
-                      contact@akshaysirsikar.com
+                    <a href="mailto:akshaysirsikar@gmail.com" className="text-gray-700 hover:text-primary">
+                      akshaysirsikar@gmail.com
                     </a>
                   </div>
                   <div className="flex items-center">
                     <Linkedin className="mr-3 text-primary" size={20} />
-                    <a href="https://linkedin.com/in/akshay-sirsikar" className="text-gray-700 hover:text-primary" target="_blank" rel="noopener noreferrer">
-                      linkedin.com/in/akshay-sirsikar
+                    <a href="https://www.linkedin.com/in/akshay-sirsikar-086629105/" className="text-gray-700 hover:text-primary" target="_blank" rel="noopener noreferrer">
+                      linkedin.com/in/akshay-sirsikar-086629105
                     </a>
                   </div>
                   <div className="flex items-center">
                     <Github className="mr-3 text-primary" size={20} />
-                    <a href="https://github.com/akshaysirsikar" className="text-gray-700 hover:text-primary" target="_blank" rel="noopener noreferrer">
-                      github.com/akshaysirsikar
+                    <a href="https://github.com/SirsikarAkshay/" className="text-gray-700 hover:text-primary" target="_blank" rel="noopener noreferrer">
+                      github.com/SirsikarAkshay
                     </a>
                   </div>
                   <div className="flex items-center">
