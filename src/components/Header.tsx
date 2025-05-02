@@ -21,7 +21,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="sticky top-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
+    <header className="sticky top-0 bg-background/95 backdrop-blur-sm shadow-sm z-50 border-b border-primary/20">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
@@ -36,7 +36,7 @@ const Header = () => {
                 <li key={item.name}>
                   <a 
                     href={item.href} 
-                    className="text-gray-700 hover:text-primary transition-colors"
+                    className="text-foreground hover:text-primary font-medium transition-colors"
                   >
                     {item.name}
                   </a>
@@ -46,7 +46,7 @@ const Header = () => {
           </nav>
           
           <button 
-            className="md:hidden text-gray-700 hover:text-primary"
+            className="md:hidden text-foreground hover:text-primary"
             onClick={toggleMenu}
             aria-label="Toggle menu"
           >
@@ -57,13 +57,13 @@ const Header = () => {
 
       {/* Mobile menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white border-t">
+        <div className="md:hidden bg-background border-t border-primary/20">
           <ul className="flex flex-col px-4 py-2">
             {navItems.map((item) => (
               <li key={item.name} className="py-2">
                 <a 
                   href={item.href} 
-                  className="block text-gray-700 hover:text-primary"
+                  className="block text-foreground hover:text-primary font-medium"
                   onClick={closeMenu}
                 >
                   {item.name}

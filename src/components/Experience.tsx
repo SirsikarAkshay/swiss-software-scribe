@@ -56,7 +56,7 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="bg-white neural-bg">
+    <section id="experience" className="bg-background neural-bg">
       <div className="section-container">
         <h2 className="section-title flex items-center gap-2 justify-center sm:justify-start">
           <ChartLine className="h-6 w-6" />
@@ -70,11 +70,11 @@ const Experience = () => {
                   {exp.icon}
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold">{exp.title}</h3>
+                  <h3 className="text-xl font-semibold text-foreground">{exp.title}</h3>
                   <div className="text-primary font-medium">{exp.company}</div>
                 </div>
               </div>
-              <div className="flex flex-wrap text-gray-500 text-sm mb-3">
+              <div className="flex flex-wrap text-muted-foreground text-sm mb-3">
                 <div className="flex items-center mr-6 mb-2">
                   <Calendar size={16} className="mr-1" />
                   <span>{exp.period}</span>
@@ -84,20 +84,20 @@ const Experience = () => {
                   <span>{exp.location}</span>
                 </div>
               </div>
-              <p className="text-gray-700 mb-4">{exp.description}</p>
+              <p className="text-foreground mb-4">{exp.description}</p>
               
               <div className="mb-4 flex flex-wrap gap-2">
                 {exp.skills.map((skill, idx) => (
-                  <Badge key={idx} variant="outline" className="bg-secondary/50 border-primary/20 text-gray-700">
+                  <Badge key={idx} variant="outline" className="bg-secondary/80 border-primary/20 text-foreground">
                     {skill}
                   </Badge>
                 ))}
               </div>
               
               {exp.responsibilities && (
-                <div className="bg-secondary/30 p-4 rounded-lg border border-primary/10">
-                  <h4 className="font-medium text-gray-800 mb-2">Key Responsibilities:</h4>
-                  <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <div className="bg-secondary/70 p-4 rounded-lg border border-primary/20">
+                  <h4 className="font-medium text-foreground mb-2">Key Responsibilities:</h4>
+                  <ul className="list-disc list-inside text-muted-foreground space-y-2">
                     {exp.responsibilities.map((resp, idx) => (
                       <li key={idx} className="pl-2">{resp}</li>
                     ))}
