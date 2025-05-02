@@ -16,7 +16,7 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="col-span-2">
                 <p className="text-muted-foreground leading-relaxed">
-                  I'm a Software Engineer with a strong foundation in full-stack development, cloud deployment, and data-driven systems. My journey began with a degree in Information Science and Engineering from B.V. Bhoomareddy College of Engineering and Technology. I then joined Mercedes-Benz Research and Development India, where I honed my skills in database design, API development, and scalable software solutions.
+                  A Software Engineer with a strong foundation in full-stack development, cloud deployment, and data-driven systems. My journey began with a degree in Information Science and Engineering from B.V. Bhoomareddy College of Engineering and Technology. I then joined Mercedes-Benz Research and Development India, where I honed my skills in database design, API development, and scalable software solutions.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mt-4">
                   Driven by a passion for data and systems, I pursued a Master's degree in Software Systems with Data Science at the University of Zurich. During my studies, I worked part-time at Leanarc GmbH, contributing to cloud-based development projects and gaining hands-on experience in delivering efficient tech solutions.
