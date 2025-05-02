@@ -10,7 +10,13 @@ const Experience = () => {
       period: "May 2023 - Present",
       duration: "2 years 1 month",
       location: "Basel, Switzerland",
-      description: "Build software for construction companies to provide schedule management."
+      description: "Build software for construction companies to provide schedule management.",
+      responsibilities: [
+        "Develop Machine Learning and Reinforcement Learning algorithms to automate the scheduling of resources based on past data",
+        "Design and implement intelligent systems that optimize resource allocation for construction projects",
+        "Create predictive models to forecast project timelines and resource requirements",
+        "Build data pipelines to process and analyze historical project data"
+      ]
     },
     {
       title: "Full-stack Developer",
