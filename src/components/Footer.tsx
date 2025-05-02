@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <h3 className="text-xl font-semibold text-primary">Akshay Sirsikar</h3>
+            <h3 className="text-xl font-semibold text-primary">Akshaykumar Sirsikar</h3>
             <p className="text-muted-foreground">Software Engineer | Data Scientist</p>
           </div>
           <div className="text-muted-foreground text-sm">
