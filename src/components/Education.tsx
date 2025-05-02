@@ -7,7 +7,7 @@ const Education = () => {
   const education = [
     {
       institution: "University of Zurich",
-      degree: "Master's degree, Data Science",
+      degree: "Master's degree, Software Systems",
       period: "2021 - 2023",
       location: "Zurich, Switzerland"
     },
