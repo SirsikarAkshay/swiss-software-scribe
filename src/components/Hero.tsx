@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="section-container flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-2/3 mb-8 md:mb-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4 text-gradient">
-            Akshay Sirsikar
+            Akshaykumar Sirsikar
           </h1>
           <h2 className="text-xl md:text-2xl text-muted-foreground mb-4 flex items-center gap-2">
             <ChartLine className="text-primary" />
@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center mb-2">
               <Briefcase size={18} className="mr-1 text-primary/80" />
-              <span>M.Sc. Data Science, Universität Zürich</span>
+              <span>M.Sc. Software Systems, Universität Zürich</span>
             </div>
           </div>
           <div className="flex space-x-4">
