@@ -10,12 +10,13 @@ const About = () => {
         <Card className="card-hover">
           <CardContent className="pt-6">
             <p className="text-gray-700 leading-relaxed">
-              Graduated from B.V. Bhoomareddy College of Engineering and Technology with a degree in Information Sciences and Engineering.
-              Currently working as a Software Engineer at Vanillaplan AG, building software for construction companies to provide schedule management.
+              I’m a Software Engineer with a strong foundation in full-stack development, cloud deployment, and data-driven systems. My journey began with a degree in Information Science and Engineering from B.V. Bhoomareddy College of Engineering and Technology. I then joined Mercedes-Benz Research and Development India, where I honed my skills in database design, API development, and scalable software solutions.
+           </p>
+            <p className="text-gray-700 leading-relaxed mt-4">
+              Driven by a passion for data and systems, I pursued a Master’s degree in Software Systems with Data Science at the University of Zurich. During my studies, I worked part-time at Leanarc GmbH, contributing to cloud-based development projects and gaining hands-on experience in delivering efficient tech solutions.
             </p>
             <p className="text-gray-700 leading-relaxed mt-4">
-              With experience at Mercedes-Benz Research and Development India and Leanarc GmbH, I've developed expertise in full-stack development,
-              database design, API development, and cloud deployment. I hold a Master's degree in Data Science from the University of Zurich.
+              Currently, I’m working at Vanillaplan AG, where I help build intelligent scheduling software for the construction industry—automating resource planning and optimizing project workflows.
             </p>
           </CardContent>
         </Card>
