@@ -16,16 +16,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 221 81% 22%;
+    --primary: 260 84% 50%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 260 30% 96%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
+    --accent: 262 83% 58%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -33,7 +33,7 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 262 83% 58%;
 
     --radius: 0.5rem;
 
@@ -57,7 +57,7 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
+    --primary: 262 83% 58%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -66,7 +66,7 @@
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 217.2 32.6% 17.5%;
+    --accent: 260 84% 50%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;
@@ -118,8 +118,31 @@
   @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
 }
 
+/* Machine Learning theme additions */
+.neural-bg {
+  background-image: radial-gradient(circle at 30% 20%, rgba(139, 92, 246, 0.05) 0%, transparent 25%),
+                    radial-gradient(circle at 80% 70%, rgba(217, 70, 239, 0.05) 0%, transparent 35%);
+}
+
+.glow-effect {
+  @apply relative overflow-hidden;
+}
+
+.glow-effect::after {
+  content: "";
+  @apply absolute inset-0 bg-gradient-to-r from-transparent via-primary/10 to-transparent opacity-0 transition-opacity duration-700;
+  animation: glow 2s infinite;
+}
+
+@keyframes glow {
+  0% { opacity: 0; transform: translateX(-100%); }
+  50% { opacity: 0.5; }
+  100% { opacity: 0; transform: translateX(100%); }
+}
+
 @media (max-width: 768px) {
   .timeline-item {
     @apply pl-6;
   }
 }
+
