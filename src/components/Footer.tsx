@@ -13,7 +13,7 @@ const Footer = () => {
             <p className="text-muted-foreground">Software Engineer | Data Scientist</p>
           </div>
           <div className="text-muted-foreground text-sm">
-            <p>© {currentYear} Akshay Sirsikar. All rights reserved.</p>
+            <p>© {currentYear} Akshaykumar Sirsikar. All rights reserved.</p>
           </div>
         </div>
       </div>
